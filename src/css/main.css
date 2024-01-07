@@ -115,4 +115,48 @@ button {
   border-radius: 640px;
   opacity: 0.3089;
   background: linear-gradient(90deg, rgba(93, 2, 2, 0) 0%, rgba(93, 2, 2, 0.5) 100%);
+}
+
+.project {
+  display: flex;
+  align-items: start;
+  gap: 0 30px;
+  margin-bottom: 160px;
+}
+.project-img-1 {
+  position: relative;
+  background: url(../../assets/svg/web\ design.svg);
+  background-size: cover;
+  z-index: -1;
+}
+.project-img-2 {
+  margin-bottom: 24px;
+}
+.project-title {
+  position: absolute;
+  top: 55.5%;
+  left: 41.5%;
+  color: white;
+  margin-bottom: 24px;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 2px;
+  z-index: 2;
+}
+.project-text {
+  position: absolute;
+  top: 55.5%;
+  left: 41.5%;
+  color: #FFF;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  z-index: 2;
 }/*# sourceMappingURL=main.css.map */
