@@ -123,12 +123,6 @@ button {
   gap: 0 30px;
   margin-bottom: 160px;
 }
-.project-img-1 {
-  position: relative;
-  background: url(../../assets/svg/web\ design.svg);
-  background-size: cover;
-  z-index: -1;
-}
 .project-img-2 {
   margin-bottom: 24px;
 }
@@ -159,4 +153,44 @@ button {
   letter-spacing: 5px;
   text-transform: uppercase;
   z-index: 2;
+}
+
+.info {
+  margin-bottom: 160px;
+}
+.info-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.info-item {
+  text-align: center;
+}
+.info-img {
+  width: 202px;
+  height: 202px;
+  margin-bottom: 48px;
+}
+.info-title {
+  margin-bottom: 32px;
+  width: 350px;
+  color: #333136;
+  text-align: center;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 5px;
+}
+.info-text {
+  width: 350px;
+  color: #333136;
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }/*# sourceMappingURL=main.css.map */
